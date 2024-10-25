@@ -1,0 +1,32 @@
+- Text input and Data Collection
+	- Data Collection : Gathering text data from various sources such as websites, books, social media, or proprietary databases.
+	- Data Storage : Storing the collected text data in a structured format, such as a database or a collection of documents.
+- Text Preprocessing
+	- Tokenization
+	- Lowercasing
+	- Stopword Removal
+	- Punctual Removal
+	- Stemming and Lemmatization
+	- Text normalization
+- Text Representation
+	- Bag of Words (BoW) : Representing text as a collection of words, ignoring grammar and word order but keeping track of word frequency.
+	- Term Frequency-Inverse Document Frequency (TF-IDF) : A statistic that reflects the importance of a word in a document relative to a collection of documents.
+	- Word Embeddings : Using dense vector representations of words where semantically similar words are closer together in the vector space (e.g., Word2Vec, GloVe).
+- Feature Extraction
+	- N-grams : Capturing sequences of N words to preserve some context and word order.
+	- Syntactic Features : Using parts of speech tags, syntactic dependencies, and parse trees.
+	- Semantic Features : Leveraging word embeddings and other representations to capture word meaning and context.
+- Model Selection and Training
+	- Supervised Learning : Using labeled data to train models like Support Vector Machines (SVM), Random Forests, or deep learning models like Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs).
+	- Unsupervised Learning : Applying techniques like clustering or topic modeling (e.g., Latent Dirichlet Allocation) on unlabeled data.
+	- Pre-trained Models : Utilizing pre-trained language models such as BERT, GPT, or transformer-based models that have been trained on large corpora.
+- Model Deployment and Inference
+	- Text Classification : Categorizing text into predefined classes (e.g., spam detection, sentiment analysis).
+	- Named Entity Recognition (NER) : Identifying and classifying entities in the text.
+	- Machine Translation : Translating text from one language to another.
+	- Question Answering : Providing answers to questions based on the context provided by text data.
+- Evaluation and Optimization
+	- Evaluating the performance of the NLP algorithm using metrics such as accuracy, precision, recall, F1-score, and others.
+	- Hyperparameter Tuning : Adjusting model parameters to improve performance.
+	- Error Analysis : Analyzing errors to understand model weaknesses and improve robustness.
+- Iteration and Improvement
